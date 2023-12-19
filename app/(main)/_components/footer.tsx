@@ -3,8 +3,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="px-5">
-      <div className="py-[3vh] border-t-[1px] border-black">
+    <div className="px-10">
+      <div className="py-[3vh] border-t-[1px] border-black dark:border-neutral-200">
         <div className="flex justify-between items-center">
           <Link href={""}>
             <span>Linkedin</span>

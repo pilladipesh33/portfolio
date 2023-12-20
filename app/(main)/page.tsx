@@ -7,7 +7,7 @@ const MainPage = () => {
   return (
     <div>
       <Heading />
-      <div className="h-[30vh] text-center">
+      <div className="pt-10 px-5">
         <Heroes />
       </div>
       {/* <div className="absolute bottom-0 w-full"> */}

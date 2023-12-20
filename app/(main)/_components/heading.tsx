@@ -10,7 +10,7 @@ const Heading = () => {
         <br />
         Developer
       </h1>
-      <div className="pt-5">
+      <div className="pt-5 px-5">
         <p className="text-[15px] text-[#00000a] dark:text-[#fffffa]">
           specialized in Web and Mobile App
           <br /> Development, UX / UI, and Webflow.

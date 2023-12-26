@@ -5,6 +5,7 @@ import { Logo } from "./logo";
 import { useTheme } from "next-themes";
 import { Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const Navbar = () => {
   const { theme, setTheme } = useTheme();
@@ -17,24 +18,24 @@ const Navbar = () => {
         </div>
         <div className="md:flex justify-between items-center w-2/5 lg:w-3/12">
           <nav className="">
-            <a href="/" className="hover:underline">
+            <Link href="/" className="hover:underline">
               About
-            </a>
+            </Link>
           </nav>
           <nav>
-            <a href="/" className="hover:underline">
+            <Link href="/" className="hover:underline">
               Work
-            </a>
+            </Link>
           </nav>
           <nav>
-            <a href="/" className="hover:underline">
+            <Link href="/" className="hover:underline">
               Process
-            </a>
+            </Link>
           </nav>
           <nav>
-            <a href="/" className="hover:underline">
+            <Link href="/" className="hover:underline">
               Drop me a line
-            </a>
+            </Link>
           </nav>
         </div>
         <div className="flex justify-around items-center">
